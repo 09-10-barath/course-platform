@@ -1,0 +1,94 @@
+/* Background container */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #6a0dad, #37007e);
+  background-image: url('c:\Users\Barath\Downloads\background-pxbee.jpg'); /* Purple background with lines */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Login Box */
+.login-box {
+  background: #7a2cd4;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  width: 280px;
+  color: white;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* Heading */
+.login-box h2 {
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+/* Underline */
+.login-box hr {
+  border: 1px solid white;
+  width: 40px;
+  margin: 0 auto 20px auto;
+}
+
+/* Input Group */
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* Input Fields */
+.input-group input {
+  border-radius: 15px;
+  border: none;
+  height: 24px;
+  width: 160px;
+  padding: 0 10px;
+  outline: none;
+}
+
+/* Note Text */
+.note {
+  font-size: 11px;
+  margin: 10px 0 15px 0;
+}
+
+.login-text {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Sign in button */
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 6px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Responsive center for smaller screens */
+@media (max-width: 400px) {
+  .login-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .input-group input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,130 @@
+/* General container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #6a0dad, #37007e);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 40px;
+  border-radius: 12px;
+}
+
+.navbar h1 {
+  font-size: 22px;
+  color: #facc15;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navbar nav a:hover {
+  color: #facc15;
+}
+
+.auth-buttons a {
+  margin-left: 10px;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-btn {
+  border: 1px solid #facc15;
+  background: transparent;
+  color: #facc15;
+}
+
+.login-btn:hover {
+  background: rgba(250, 204, 21, 0.1);
+}
+
+.signup-btn {
+  background: #facc15;
+  color: black;
+}
+
+.signup-btn:hover {
+  background: #ffd84d;
+}
+
+/* Course cards and panels */
+.course-card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
+  color: white;
+}
+
+.course-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Buttons inside course content */
+button {
+  cursor: pointer;
+}
+
+button.signup-btn,
+button.login-btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+button.signup-btn {
+  background: #facc15;
+  color: black;
+}
+
+button.signup-btn:hover {
+  background: #ffd84d;
+}
+
+button.login-btn {
+  border: 1px solid #facc15;
+  background: transparent;
+  color: #facc15;
+}
+
+button.login-btn:hover {
+  background: rgba(250, 204, 21, 0.1);
+}
+
+/* Footer */
+.footer {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #aaa;
+  border-radius: 12px 12px 0 0;
+}
+
+.footer a {
+  color: #facc15;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
