@@ -1,0 +1,153 @@
+[
+  {
+    "id": "course-frontend-101",
+    "title": "Frontend Foundations",
+    "subtitle": "Build clean, responsive interfaces with modern HTML, CSS, and React.",
+    "instructorName": "Aisha Kapoor",
+    "level": "Beginner",
+    "duration": "6h 20m",
+    "channelTitle": "AtomAcademy",
+    "views": "12k",
+    "publishedAt": "2025-11-18T00:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+    "url": "",
+    "videoUrl": "https://www.youtube.com/embed/Ke90Tje7VS0",
+    "notes": [
+      { "title": "Course outline", "href": "https://developer.mozilla.org/en-US/docs/Learn" },
+      { "title": "CSS layouts", "href": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout" }
+    ],
+    "quiz": {
+      "title": "Frontend basics quiz",
+      "questions": [
+        { "text": "What is the box model?" },
+        { "text": "Which hook manages state in React?" }
+      ]
+    },
+    "isFeatured": true,
+    "isPopular": true
+  },
+  {
+    "id": "course-node-api",
+    "title": "Node.js API Builder",
+    "subtitle": "Design robust REST APIs with Node, Express, and MongoDB patterns.",
+    "instructorName": "Rahul Das",
+    "level": "Intermediate",
+    "duration": "8h 10m",
+    "channelTitle": "AtomAcademy",
+    "views": "21k",
+    "publishedAt": "2025-10-02T00:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "url": "",
+    "videoUrl": "https://www.youtube.com/embed/Oe421EPjeBE",
+    "notes": [
+      { "title": "REST checklist", "href": "https://www.rfc-editor.org/rfc/rfc9110" }
+    ],
+    "quiz": {
+      "title": "API design quiz",
+      "questions": [
+        { "text": "What does idempotent mean for HTTP?" },
+        { "text": "Which status code indicates a successful creation?" }
+      ]
+    },
+    "isFeatured": true,
+    "isPopular": false
+  },
+  {
+    "id": "course-ui-systems",
+    "title": "Design Systems in Practice",
+    "subtitle": "Create scalable UI systems with tokens, components, and documentation.",
+    "instructorName": "Meera Iyer",
+    "level": "Advanced",
+    "duration": "5h 45m",
+    "channelTitle": "AtomAcademy",
+    "views": "9.4k",
+    "publishedAt": "2025-12-05T00:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=80",
+    "url": "",
+    "videoUrl": "https://www.youtube.com/embed/4R8L1rH5m5E",
+    "notes": [
+      { "title": "Design tokens", "href": "https://design-tokens.github.io/community-group/format/" }
+    ],
+    "quiz": {
+      "title": "System thinking quiz",
+      "questions": [
+        { "text": "Why use design tokens?" },
+        { "text": "What is a component variant?" }
+      ]
+    },
+    "isFeatured": false,
+    "isPopular": true
+  },
+  {
+    "id": "course-data-sql",
+    "title": "SQL for Product Analytics",
+    "subtitle": "Query funnels, cohorts, and dashboards with confidence.",
+    "instructorName": "Jonas Kim",
+    "level": "Beginner",
+    "duration": "4h 50m",
+    "channelTitle": "AtomAcademy",
+    "views": "6.8k",
+    "publishedAt": "2025-08-21T00:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1545239351-ef35f43d514b?auto=format&fit=crop&w=1200&q=80",
+    "url": "",
+    "videoUrl": "https://www.youtube.com/embed/HXV3zeQKqGY",
+    "notes": [],
+    "quiz": {
+      "title": "SQL fundamentals quiz",
+      "questions": [
+        { "text": "What does GROUP BY do?" },
+        { "text": "When would you use HAVING?" }
+      ]
+    },
+    "isFeatured": false,
+    "isPopular": true
+  },
+  {
+    "id": "course-ux-research",
+    "title": "UX Research Toolkit",
+    "subtitle": "Plan interviews, synthesize insights, and shape product decisions.",
+    "instructorName": "Priya Menon",
+    "level": "Intermediate",
+    "duration": "3h 40m",
+    "channelTitle": "AtomAcademy",
+    "views": "5.1k",
+    "publishedAt": "2025-09-12T00:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+    "url": "",
+    "videoUrl": "https://www.youtube.com/embed/9Bq5Xo1bF6o",
+    "notes": [],
+    "quiz": {
+      "title": "Research methods quiz",
+      "questions": [
+        { "text": "What is a usability test?" },
+        { "text": "Why use affinity mapping?" }
+      ]
+    },
+    "isFeatured": true,
+    "isPopular": false
+  },
+  {
+    "id": "course-cloud-basics",
+    "title": "Cloud Fundamentals",
+    "subtitle": "Understand compute, storage, networking, and cloud security.",
+    "instructorName": "Aarav Patel",
+    "level": "Beginner",
+    "duration": "6h 05m",
+    "channelTitle": "AtomAcademy",
+    "views": "14k",
+    "publishedAt": "2025-07-30T00:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    "url": "",
+    "videoUrl": "https://www.youtube.com/embed/RK1K2bCg4J8",
+    "notes": [],
+    "quiz": {
+      "title": "Cloud basics quiz",
+      "questions": [
+        { "text": "What is IaaS?" },
+        { "text": "Name one cloud storage type." }
+      ]
+    },
+    "isFeatured": false,
+    "isPopular": true
+  }
+]

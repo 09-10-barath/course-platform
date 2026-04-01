@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "badge": "Open learning",
+    "headline": "Grow real-world skills with flexible, expert-led courses.",
+    "subhead": "AtomAcademy brings together top instructors, curated tracks, and project-based learning you can complete at your own pace.",
+    "ctaPrimary": "Start learning",
+    "ctaSecondary": "View catalog",
+    "searchPlaceholder": "Search by topic, instructor, or skill",
+    "categoriesTitle": "Explore categories",
+    "categoriesSubtitle": "Pick a track, follow a path, and learn with confidence.",
+    "featuredTitle": "Featured courses",
+    "featuredSubtitle": "Curated picks to help you level up fast.",
+    "popularTitle": "Popular with learners",
+    "popularSubtitle": "Courses learners are enrolling in this week."
+  },
+  "weeklySprint": {
+    "title": "Weekly sprint: Build a product UI",
+    "description": "Complete a practical UI challenge with mentor feedback and a portfolio-ready outcome.",
+    "metrics": [
+      { "label": "Learners", "value": "4.6k" },
+      { "label": "Completions", "value": "89%" },
+      { "label": "Avg. rating", "value": "4.8/5" }
+    ],
+    "cta": "Join sprint"
+  },
+  "stats": [
+    { "label": "Active learners", "value": "45k+" },
+    { "label": "Courses", "value": "120+" },
+    { "label": "Mentors", "value": "80+" },
+    { "label": "Countries", "value": "32" }
+  ],
+  "categories": [
+    { "label": "Web Development", "count": "36 courses" },
+    { "label": "Product Design", "count": "18 courses" },
+    { "label": "Data & Analytics", "count": "22 courses" },
+    { "label": "Cloud & DevOps", "count": "16 courses" },
+    { "label": "AI Foundations", "count": "12 courses" },
+    { "label": "Career Growth", "count": "10 courses" }
+  ],
+  "featuredCourses": [],
+  "popularCourses": [],
+  "cta": {
+    "title": "Learn with structure, not overwhelm.",
+    "description": "Get curated tracks, mentor support, and real projects that build confidence.",
+    "action": "Browse courses"
+  },
+  "footer": {
+    "blurb": "AtomAcademy is a community-first learning platform for modern, job-ready skills.",
+    "newsletterTitle": "Stay in the loop",
+    "newsletterCopy": "Get course updates, new tracks, and learning tips every week.",
+    "copyright": "(c) 2026 AtomAcademy. All rights reserved."
+  }
+}
