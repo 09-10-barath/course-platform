@@ -40,7 +40,8 @@ const MAIL_CONFIG = {
 };
 
 if (!MONGO_URI) {
-  console.log("MongoDB URI missing. Set MONGODB_URI in your .env file.");
+  console.error("MongoDB URI missing. Set MONGODB_URI in your .env file before starting the backend.");
+  process.exit(1);
 }
 
 console.log("Mail config loaded:", {
@@ -136,14 +137,31 @@ const sendMail = async ({ to, subject, html }) => {
   });
 };
 
-mongoose
-  .connect(MONGO_URI)
-  .then(async () => {
+const startServer = () => {
+  const PORT = 5000;
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on http://localhost:${PORT}`);
+    console.log("Course notes schema:", describeCourseNotesSchema());
+  });
+};
+
+const connectToDatabase = async () => {
+  try {
+    await mongoose.connect(MONGO_URI);
     console.log("MongoDB Connected");
     await ensureAdminSeed();
     startExternalCourseSyncScheduler();
-  })
-  .catch((err) => console.log("DB Error:", err));
+    startServer();
+  } catch (err) {
+    console.error("DB Error:", err);
+    console.error(
+      "Failed to connect to MongoDB. Confirm your Atlas URI, credentials, and network access (IP whitelist)."
+    );
+    process.exit(1);
+  }
+};
+
+connectToDatabase();
 
 // Course Schema
 const syllabusItemSchema = new mongoose.Schema(
@@ -1717,8 +1735,4 @@ app.post("/api/courses/:id/quiz", async (req, res) => {
 });
 
 // --- Start Server ---
-const PORT = 5000;
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
-  console.log("Course notes schema:", describeCourseNotesSchema());
-});
+// Server startup happens after MongoDB connects successfully.
